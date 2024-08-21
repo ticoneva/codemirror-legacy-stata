@@ -487,12 +487,5 @@ export const stata = simpleMode({
   ],
   languageData: {
     name: "stata",
-    closeBrackets: {pairs: "()[]{}`'\"\""},
-    dontIndentStates: [color_translator['comment']],
-    electricInput: /^\s*\}$/,
-    blockCommentStart: '/*',
-    blockCommentEnd: '*/',
-    lineComment: '//',
-    fold: 'brace'
   }
 });
